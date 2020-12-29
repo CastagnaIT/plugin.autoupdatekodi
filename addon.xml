@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.autoupdatekodi" name="AutoUpdateKodi" provider-name="castagnait" version="0.1.0+matrix.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <platform>windows</platform>
+    <license>MIT</license>
+    <summary lang="en_GB">AutoUpdateKodi</summary>
+    <description lang="en_GB">An add-on for Windows that allows you to update Kodi automatically, no setup installation guide, no UAC prompt confirmation, no other user interaction required. It also provides GitHub info about the PR's referred to each Setup of the nightly builds.</description>
+    <disclaimer lang="en_GB">This add-on is provided "as is" without warranty of any kind, either express or implied. Use at your own risk.</disclaimer>
+	<assets>
+      <icon>resources/media/icon.png</icon>
+      <screenshot>resources/media/screenshot-01.jpg</screenshot>
+      <screenshot>resources/media/screenshot-02.jpg</screenshot>
+	  <screenshot>resources/media/screenshot-03.jpg</screenshot>
+    </assets>
+    <website>https://github.com/CastagnaIT/plugin.autoupdatekodi</website>
+    <news>
+v0.1.0 (2020-12-29)
+- Initial version
+	</news>
+  </extension>
+</addon>

@@ -1,0 +1,129 @@
+# Kodi Media Center language file
+# Addon Name: AutoUpdateKodi
+# Addon id: plugin.autoupdatekodi
+# Addon Provider: CastagnaIT
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.autoupdatekodi\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.autoupdatekodi\n"
+"POT-Creation-Date: 2020-09-20 00:00+0000\n"
+"PO-Revision-Date: 2020-09-20 00:00+0000\n"
+"Last-Translator: Stefano Gottardo <>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "General"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Expert"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Automatic installations (no UAC prompt/auto restart)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "This feature allows you to avoid UAC prompt confirmation at every Kodi installation and allows you to restart Kodi automatically when the installation will be completed. To activate it select \"Install Task\"."
+msgstr ""
+
+msgctxt "#30042"
+msgid "The \"Kodi_Install_NoUAC\" entry will be added to the Windows Task scheduler.[CR]Do you want to continue?"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Do you want to delete \"Kodi_Install_NoUAC\" entry from Windows Task scheduler?"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Task created successfully"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Task creation failed.[CR]To try solve the problem you can try reboot Windows or manually deleting from the Windows Task Scheduler the entry \"Kodi_Install_NoUAC\""
+msgstr ""
+
+msgctxt "#30046"
+msgid "Task deleted successfully"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Task deletion failed"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Install Task"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Delete Task"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Keep the downloaded files saved"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Install Kodi"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Do you want install \"{}\"?"
+msgstr ""
+
+msgctxt "#30072"
+msgid "The Task is not installed. Open the add-on settings and install it."
+msgstr ""
+
+msgctxt "#30073"
+msgid "Installation cancelled"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Delete all downloads"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Do you want to delete all downloads?"
+msgstr ""
+
+msgctxt "#30080"
+msgid "View github history"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Merged PR's of: {}"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Debug logging level"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Enable execution timing"
+msgstr ""
+
+msgctxt "#30499"
+msgid "Download in progress"
+msgstr ""
+
+msgctxt "#30500"
+msgid "[B]Downloading:[/B]"
+msgstr ""
+
+msgctxt "#30501"
+msgid "[B]Speed:[/B]"
+msgstr ""
+
+msgctxt "#30502"
+msgid "[B]ETA:[/B]"
+msgstr ""
+
+msgctxt "#30700"
+msgid "The add-on encountered the following error:[CR]{}"
+msgstr ""

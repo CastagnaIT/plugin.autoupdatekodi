@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30001"><!--General-->
+    <setting id="usetaskscheduler" type="bool" label="30040" default="false" />
+    <setting id="usetaskinfo" type="action" label="19033" action="RunPlugin(plugin://$ID/actions/use_task_info/)" subsetting="true"/>
+    <setting id="taskadd" type="action" label="30050" visible="eq(-2,true)" action="RunPlugin(plugin://$ID/actions/add_task/)" subsetting="true"/>
+    <setting id="taskdelete" type="action" label="30051" visible="eq(-3,true)" action="RunPlugin(plugin://$ID/actions/delete_task/)" subsetting="true"/>
+    <setting type="lsep"/>
+    <setting id="save_downloads" type="bool" label="30060" default="false" />
+    <setting id="delete_downloads" type="action" label="30074" visible="eq(-1,true)" action="RunPlugin(plugin://$ID/actions/delete_downloads/)" subsetting="true"/>
+  </category>
+  <category label="30002"><!--Expert-->
+    <setting id="debug_log_level" type="labelenum" label="30100" values="Disabled|Info|Verbose" default="Disabled"/>
+    <setting id="enable_timing" type="bool" label="30101" default="false" visible="eq(-1,2)" subsetting="true"/>
+  </category>
+</settings>
