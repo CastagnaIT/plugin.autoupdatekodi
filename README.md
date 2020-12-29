@@ -18,14 +18,15 @@ This add-on is provided "as is" without warranty of any kind, either express or 
 
 ## Installation & Updates
 
-This add-on is compatible only with Kodi 19.x and higher,
-and it is for Windows operative systems only (no Windows Store/UWP)
+This add-on is compatible only with Kodi 19.x and higher<br/>
+for Windows operative systems only (no Windows Store/UWP)
 
 - Open Kodi and in the Add-ons browser, choose Install from zip file
 - Navigate in to the Home/downloads folder then install the repository file `repository.castagnait-1.0.x.zip`
 - Return to the add-ons browser and choose Install from repository then select CastagnaIT repository and install the add-on
 
-* [CastagnaIT Repository for KODI 19.x MATRIX - repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/matrix/repository.castagnait-1.0.0.zip)
+**DOWNLOAD FROM REPOSITORY NOT READY YET**<br/>
+[CastagnaIT Repository for KODI 19.x MATRIX - repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/matrix/repository.castagnait-1.0.0.zip)
 
 ## How to upgrade/downgrade Kodi in a fully automatic way
 
@@ -35,6 +36,7 @@ This feature allow you to install each Kodi setup that you choose in fully autom
 - Allows you to avoid UAC prompt confirmation
 - No Setup installation guide
 - Kodi will be restarted automatically when the installation will be completed
+
 So you no longer need the mouse or other manual interaction to make a Kodi update/downgrade
 
 **How to enable it:**
@@ -42,7 +44,7 @@ So you no longer need the mouse or other manual interaction to make a Kodi updat
 2) Enable `Automatic installations`
 3) Select `Install Task`
 
-When you choose to uninstall this add-on remember to execute `Delete Task`,
+When you choose to uninstall this add-on remember to execute `Delete Task` from the settings,
 nothing happens if you do not do this, but an unused entry called `Kodi_Install_NoUAC` remains saved in the Windows Task Scheduler.
 
 ## License
